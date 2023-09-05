@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Vivek sharma",
+            "group": "Vivek",
+            "database": "${workspaceFolder:Project Social Media App}/src/db/database.sql"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Lakshay Sharma",
+            "group": "Lakshay",
+            "database": "${workspaceFolder:Project Social Media App}/src/server.js"
+        },
+        {
+            "previewLimit": 300,
+            "driver": "SQLite",
+            "name": "Leet",
+            "group": "elite",
+            "database": "${workspaceFolder:Project Social Media App}/src/server.js"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Cgc landran",
+            "group": "cgc",
+            "database": "${workspaceFolder:Project Social Media App}/src/server.js"
+        }
+    ]
+}
