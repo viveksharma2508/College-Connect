@@ -25,7 +25,7 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.9.1",
     "passport": "^0.7.0",
-    "sequelize": "^6.36.0",
+    "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7",
     "token": "^0.1.0",
     "uuid": "^9.0.1",
