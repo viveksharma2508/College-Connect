@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Bhardwaj.vs@7409@2525",
-    "database": "cbsocialdb",
-    "host": "localhost",
+    "username": "cbsocialuser",
+    "password": "lakshaybh2509",
+    "database": "cbsocialmediadb",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {

@@ -1,20 +1,17 @@
-# Social Media Sample Project
+Here’s the updated `README.md` with a section for adding screenshots:
 
+---
+
+# College-Connect
 
 ## Database Setup
 
 ```shell
-$ mysql -u root
+$ sqlite3 cbsocialmediadb.db
 ```
 
-```mysql
-create database cbsocialmediadb;
-
-create user cbsocialuser identified with mysql_native_password by 'cbsocialpass';
-
-grant all privileges on cbsocialmediadb.*  to cbsocialuser;
-
-flush privileges;
+```sqlite
+-- Create tables and schema as needed
 ```
 
 ## Project Structure
@@ -47,28 +44,27 @@ src/public
     ├── bootstrap.js
     ├── jquery-3.4.1.js
     └── popper.js
-
 ```
+
 ## Business Logic 
 
 ### Users
 
 1. **create users** 
-    this will create a new user with a random username
+    This will create a new user with a random username.
 
 ### Posts
 
 1. **create post**
-    this will create a new post, required fields are 
+    This will create a new post. Required fields are:
     - username (the author of this post)
     - title
     - body 
 
 2. **show all posts**
-    list all existing posts, we should have following filtering support
-
-    - filter by username
-    - filter by query contained in title (search by title)
+    List all existing posts. Filtering support:
+    - Filter by username
+    - Filter by query contained in title (search by title)
 
 3. **edit posts** `TBD`
 
@@ -89,30 +85,45 @@ src/public
 
 1. `POST /users` 
 
-Creates a new user with random username and an user id
+Creates a new user with random username and a user id.
 
 2. `GET /users/{userid}`
 
-Get an user with a given user id
+Get a user with a given user id.
 
 3. `GET /users/{username}`
 
-Get an user with a given username
+Get a user with a given username.
 
 
 ### `posts` 
 
 1. `GET /posts` 
 
-Get all posts by everyone 
+Get all posts by everyone.
 
 2. `POST /posts` 
 
-Create a new post. 
-Required fields in body - 
-
+Create a new post. Required fields in body:
 ```
 userId=
 title=
 body=
 ```
+
+## Screenshots
+
+Add screenshots of your project below:
+
+1. **Homepage**
+   ![Homepage](path/to/homepage-screenshot.png)
+
+2. **User Profile**
+   ![User Profile](path/to/user-profile-screenshot.png)
+
+3. **Post Creation**
+   ![Post Creation](path/to/post-creation-screenshot.png)
+
+4. **Comments Section**
+   ![Comments Section](path/to/comments-section-screenshot.png)
+
